@@ -3,6 +3,8 @@ REST-API
 
 REST-API adds a layer on top of [go-restful](https://github.com/emicklei/go-restful) to make it faster to get up and running. It uses some code from the excellent [goji project](https://github.com/zenazn/goji) and integrates a few other libraries to facilitate database access, logging, graceful shutdown etc...
 
+**Note: Very concise project. Currently just fixing known bugs.**
+
 ### Usage example
 
 ```Go
@@ -12,9 +14,9 @@ package main
 import (
 	"github.com/emicklei/go-restful"
 	"github.com/jinzhu/gorm"
-	"github.com/johnwilson/restapi"
-	"github.com/johnwilson/restapi/plugins"
-	"github.com/johnwilson/restapi/system"
+	"github.com/vulcangz/restapi"
+	"github.com/vulcangz/restapi/plugins"
+	"github.com/vulcangz/restapi/system"
 )
 
 type MainController struct {
