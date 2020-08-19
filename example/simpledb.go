@@ -6,9 +6,9 @@ import (
 
 	"github.com/emicklei/go-restful"
 	"github.com/jinzhu/gorm"
-	"github.com/johnwilson/restapi"
-	"github.com/johnwilson/restapi/plugins"
-	"github.com/johnwilson/restapi/system"
+	"github.com/vulcangz/restapi"
+	"github.com/vulcangz/restapi/plugins"
+	"github.com/vulcangz/restapi/system"
 )
 
 type MainController struct {

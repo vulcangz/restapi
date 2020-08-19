@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	r "github.com/dancannon/gorethink"
-	"github.com/johnwilson/restapi/system"
+	"github.com/vulcangz/restapi/system"
 )
 
 type RethinkDB struct {

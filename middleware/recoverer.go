@@ -7,7 +7,7 @@ import (
 	"runtime/debug"
 
 	"github.com/emicklei/go-restful"
-	"github.com/johnwilson/restapi/system"
+	"github.com/vulcangz/restapi/system"
 )
 
 // Recoverer is a middleware that recovers from panics, logs the panic (and a

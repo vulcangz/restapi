@@ -5,9 +5,9 @@ import (
 
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/jinzhu/gorm"
-	"github.com/johnwilson/restapi/system"
 	_ "github.com/lib/pq"
 	_ "github.com/mattn/go-sqlite3"
+	"github.com/vulcangz/restapi/system"
 )
 
 type Gorm struct {
@@ -36,7 +36,7 @@ func (g *Gorm) Init(a *system.Application) error {
 	db.DB().SetMaxIdleConns(max_idle)
 	db.DB().SetMaxOpenConns(max_open)
 
-	g.db = &db
+	g.db = db
 	return nil
 }
 

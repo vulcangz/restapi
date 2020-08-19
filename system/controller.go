@@ -79,10 +79,10 @@ func (ct *Controller) AddJob(n string, j *AsyncJob) error {
 	return nil
 }
 
-func (ct *Controller) GetConfig(req *restful.Request) *toml.TomlTree {
+func (ct *Controller) GetConfig(req *restful.Request) *toml.Tree {
 	tmp := req.Attribute("app.config")
 	if tmp != nil {
-		val := tmp.(*toml.TomlTree)
+		val := tmp.(*toml.Tree)
 		return val
 	}
 	return nil

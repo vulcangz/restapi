@@ -8,7 +8,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/johnwilson/restapi/system"
+	"github.com/vulcangz/restapi/system"
 )
 
 type QM struct {

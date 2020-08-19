@@ -1,8 +1,8 @@
 package restapi
 
 import (
-	"github.com/johnwilson/restapi/middleware"
-	"github.com/johnwilson/restapi/system"
+	"github.com/vulcangz/restapi/middleware"
+	"github.com/vulcangz/restapi/system"
 )
 
 func NewApplication(configFile string) *system.Application {

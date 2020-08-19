@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/garyburd/redigo/redis"
-	"github.com/johnwilson/restapi/system"
+	"github.com/vulcangz/restapi/system"
 )
 
 type PluginRedis struct {

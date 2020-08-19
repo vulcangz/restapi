@@ -6,15 +6,15 @@ import (
 	"net/http"
 	"time"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"github.com/emicklei/go-restful"
-	"github.com/emicklei/go-restful/swagger"
+	"github.com/emicklei/go-restful-swagger12"
 	"github.com/pelletier/go-toml"
 	"gopkg.in/tylerb/graceful.v1"
 )
 
 type Application struct {
-	Config      *toml.TomlTree
+	Config      *toml.Tree
 	Container   *restful.Container
 	pluginsRepo map[string]Plugin
 }

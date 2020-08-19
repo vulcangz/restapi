@@ -3,8 +3,8 @@ package plugins
 import (
 	"fmt"
 
-	"github.com/johnwilson/restapi/system"
 	"gopkg.in/mgo.v2"
+	"github.com/vulcangz/restapi/system"
 )
 
 type MongoDB struct {
